@@ -84,17 +84,7 @@ Improved Potential Field Method that proposed in [1] which was developed an
 improved APF algorithm then we show the results in section. A conclusion id
 drawn in the last section of this report.
 
-# Artificial Potential Field
+# Technical Report
 
-The Artificial Potential Field (APF) is an attractive and repulsive method
-between the target, the goal, and the obstacle. The robot is attracted to the
-target and repulsive from the obstacles. to the target point. Attractive field
-is radial distribution about the target point and the direction of attraction
-points to the target point [2]. The APF force is the sum of the attractive force
-, and the repulsive force as described in Equation
-
-* The Attractive Force
-
-The attractive force, is the force the robot uses to navigate toward the target,
-and radially distributed from the target as we described mathematically in
-Equation :
+[download the project report from
+here](https://github.com/Meshaal-Mouawad/Improvement-Potential-Field-Algorithm/blob/main/Report%20Milestone%20Project%201%20September%2010%202021.pdf)
