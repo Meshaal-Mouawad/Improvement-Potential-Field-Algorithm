@@ -1,0 +1,1138 @@
+{
+  "paired": {
+    "raw/u16": {
+      "difference": -0.325,
+      "ci": [
+        -0.4,
+        -0.25
+      ],
+      "pairedN": 73,
+      "meanLengthDifference": 0.005479452054794599,
+      "meanClearanceDifference": -0.035821927401881226
+    },
+    "raw/u64": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": 0.05681818181818263,
+      "meanClearanceDifference": 0.0365948313579039
+    },
+    "raw/phase": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": -0.005000000000000071,
+      "meanClearanceDifference": -0.0004431858081590634
+    },
+    "raw/nonuniform": {
+      "difference": 0.008333333333333333,
+      "ci": [
+        -0.016666666666666666,
+        0.041666666666666664
+      ],
+      "pairedN": 111,
+      "meanLengthDifference": -0.09414414414414549,
+      "meanClearanceDifference": 0.017054668477122645
+    },
+    "mean/u16": {
+      "difference": -0.18333333333333332,
+      "ci": [
+        -0.25,
+        -0.125
+      ],
+      "pairedN": 90,
+      "meanLengthDifference": 0.028333333333333734,
+      "meanClearanceDifference": -0.006806244290532585
+    },
+    "mean/u64": {
+      "difference": 0.025,
+      "ci": [
+        0,
+        0.058333333333333334
+      ],
+      "pairedN": 112,
+      "meanLengthDifference": -0.015178571428571644,
+      "meanClearanceDifference": 0.00007918452139123474
+    },
+    "mean/phase": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": -0.005000000000000071,
+      "meanClearanceDifference": -0.0004431858081590634
+    },
+    "mean/nonuniform": {
+      "difference": 0.008333333333333333,
+      "ci": [
+        -0.016666666666666666,
+        0.041666666666666664
+      ],
+      "pairedN": 111,
+      "meanLengthDifference": -0.09414414414414549,
+      "meanClearanceDifference": 0.017054668477122645
+    },
+    "quadrature/u16": {
+      "difference": -0.18333333333333332,
+      "ci": [
+        -0.25,
+        -0.125
+      ],
+      "pairedN": 90,
+      "meanLengthDifference": 0.028333333333333734,
+      "meanClearanceDifference": -0.006806244290532585
+    },
+    "quadrature/u64": {
+      "difference": 0.025,
+      "ci": [
+        0,
+        0.058333333333333334
+      ],
+      "pairedN": 112,
+      "meanLengthDifference": -0.015178571428571644,
+      "meanClearanceDifference": 0.00007918452139131405
+    },
+    "quadrature/phase": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": -0.005000000000000071,
+      "meanClearanceDifference": -0.0004431858081590462
+    },
+    "quadrature/nonuniform": {
+      "difference": 0.008333333333333333,
+      "ci": [
+        0,
+        0.025
+      ],
+      "pairedN": 112,
+      "meanLengthDifference": -0.0066964285714286665,
+      "meanClearanceDifference": 0.00001252312965231309
+    },
+    "nearest/u16": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0
+    },
+    "nearest/u64": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0
+    },
+    "nearest/phase": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0
+    },
+    "nearest/nonuniform": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0
+    }
+  },
+  "summary": {
+    "sum": {
+      "heldout_frozen/raw/u16": {
+        "n": 120,
+        "success": 73,
+        "collision": 39,
+        "timeout": 8,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/raw/reference": {
+        "n": 120,
+        "success": 112,
+        "collision": 0,
+        "timeout": 8,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/raw/u64": {
+        "n": 120,
+        "success": 111,
+        "collision": 0,
+        "timeout": 9,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/raw/phase": {
+        "n": 120,
+        "success": 111,
+        "collision": 0,
+        "timeout": 9,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/raw/nonuniform": {
+        "n": 120,
+        "success": 113,
+        "collision": 0,
+        "timeout": 7,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/mean/u16": {
+        "n": 120,
+        "success": 90,
+        "collision": 13,
+        "timeout": 17,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/mean/reference": {
+        "n": 120,
+        "success": 112,
+        "collision": 0,
+        "timeout": 8,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/mean/u64": {
+        "n": 120,
+        "success": 115,
+        "collision": 0,
+        "timeout": 5,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/mean/phase": {
+        "n": 120,
+        "success": 111,
+        "collision": 0,
+        "timeout": 9,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/mean/nonuniform": {
+        "n": 120,
+        "success": 113,
+        "collision": 0,
+        "timeout": 7,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/quadrature/u16": {
+        "n": 120,
+        "success": 90,
+        "collision": 13,
+        "timeout": 17,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/quadrature/reference": {
+        "n": 120,
+        "success": 112,
+        "collision": 0,
+        "timeout": 8,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/quadrature/u64": {
+        "n": 120,
+        "success": 115,
+        "collision": 0,
+        "timeout": 5,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/quadrature/phase": {
+        "n": 120,
+        "success": 111,
+        "collision": 0,
+        "timeout": 9,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/quadrature/nonuniform": {
+        "n": 120,
+        "success": 113,
+        "collision": 0,
+        "timeout": 7,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/nearest/u16": {
+        "n": 120,
+        "success": 119,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/nearest/reference": {
+        "n": 120,
+        "success": 119,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/nearest/u64": {
+        "n": 120,
+        "success": 119,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/nearest/phase": {
+        "n": 120,
+        "success": 119,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_frozen/nearest/nonuniform": {
+        "n": 120,
+        "success": 119,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/raw/u16": {
+        "n": 120,
+        "success": 96,
+        "collision": 1,
+        "timeout": 23,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/raw/u64": {
+        "n": 120,
+        "success": 115,
+        "collision": 0,
+        "timeout": 5,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/raw/phase": {
+        "n": 120,
+        "success": 102,
+        "collision": 8,
+        "timeout": 10,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/raw/nonuniform": {
+        "n": 120,
+        "success": 120,
+        "collision": 0,
+        "timeout": 0,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/quadrature/u16": {
+        "n": 120,
+        "success": 90,
+        "collision": 13,
+        "timeout": 17,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/quadrature/u64": {
+        "n": 120,
+        "success": 116,
+        "collision": 0,
+        "timeout": 4,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/quadrature/phase": {
+        "n": 120,
+        "success": 102,
+        "collision": 8,
+        "timeout": 10,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_retuned/quadrature/nonuniform": {
+        "n": 120,
+        "success": 116,
+        "collision": 0,
+        "timeout": 4,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/raw/reference": {
+        "n": 24,
+        "success": 23,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/raw/nonuniform": {
+        "n": 24,
+        "success": 23,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/mean/reference": {
+        "n": 24,
+        "success": 23,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/mean/nonuniform": {
+        "n": 24,
+        "success": 23,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/quadrature/reference": {
+        "n": 24,
+        "success": 23,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/quadrature/nonuniform": {
+        "n": 24,
+        "success": 23,
+        "collision": 0,
+        "timeout": 1,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/nearest/reference": {
+        "n": 24,
+        "success": 24,
+        "collision": 0,
+        "timeout": 0,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      },
+      "heldout_fine/nearest/nonuniform": {
+        "n": 24,
+        "success": 24,
+        "collision": 0,
+        "timeout": 0,
+        "boundary": 0,
+        "stall": 0,
+        "nonfinite": 0
+      }
+    },
+    "trans": {
+      "raw/u16": {
+        "lost": 39,
+        "gained": 0
+      },
+      "raw/u64": {
+        "lost": 2,
+        "gained": 1
+      },
+      "raw/phase": {
+        "lost": 2,
+        "gained": 1
+      },
+      "raw/nonuniform": {
+        "lost": 1,
+        "gained": 2
+      },
+      "mean/u16": {
+        "lost": 22,
+        "gained": 0
+      },
+      "mean/u64": {
+        "lost": 0,
+        "gained": 3
+      },
+      "mean/phase": {
+        "lost": 2,
+        "gained": 1
+      },
+      "mean/nonuniform": {
+        "lost": 1,
+        "gained": 2
+      },
+      "quadrature/u16": {
+        "lost": 22,
+        "gained": 0
+      },
+      "quadrature/u64": {
+        "lost": 0,
+        "gained": 3
+      },
+      "quadrature/phase": {
+        "lost": 2,
+        "gained": 1
+      },
+      "quadrature/nonuniform": {
+        "lost": 0,
+        "gained": 1
+      },
+      "nearest/u16": {
+        "lost": 0,
+        "gained": 0
+      },
+      "nearest/u64": {
+        "lost": 0,
+        "gained": 0
+      },
+      "nearest/phase": {
+        "lost": 0,
+        "gained": 0
+      },
+      "nearest/nonuniform": {
+        "lost": 0,
+        "gained": 0
+      }
+    }
+  },
+  "family": {
+    "raw/u16/single": {
+      "success": 25,
+      "collision": 11,
+      "timeout": 4,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/reference/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/u64/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/phase/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/nonuniform/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/u16/single": {
+      "success": 32,
+      "collision": 3,
+      "timeout": 5,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/reference/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/u64/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/phase/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/nonuniform/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/u16/single": {
+      "success": 32,
+      "collision": 3,
+      "timeout": 5,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/reference/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/u64/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/phase/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/nonuniform/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/u16/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/reference/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/u64/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/phase/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/nonuniform/single": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/u16/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/reference/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/u64/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/phase/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/nonuniform/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/u16/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/reference/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/u64/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/phase/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/nonuniform/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/u16/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/reference/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/u64/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/phase/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/nonuniform/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/u16/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/reference/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/u64/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/phase/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/nonuniform/gate": {
+      "success": 40,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/u16/clutter": {
+      "success": 8,
+      "collision": 28,
+      "timeout": 4,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/reference/clutter": {
+      "success": 32,
+      "collision": 0,
+      "timeout": 8,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/u64/clutter": {
+      "success": 31,
+      "collision": 0,
+      "timeout": 9,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/phase/clutter": {
+      "success": 31,
+      "collision": 0,
+      "timeout": 9,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/nonuniform/clutter": {
+      "success": 33,
+      "collision": 0,
+      "timeout": 7,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/u16/clutter": {
+      "success": 18,
+      "collision": 10,
+      "timeout": 12,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/reference/clutter": {
+      "success": 32,
+      "collision": 0,
+      "timeout": 8,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/u64/clutter": {
+      "success": 35,
+      "collision": 0,
+      "timeout": 5,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/phase/clutter": {
+      "success": 31,
+      "collision": 0,
+      "timeout": 9,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/nonuniform/clutter": {
+      "success": 33,
+      "collision": 0,
+      "timeout": 7,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/u16/clutter": {
+      "success": 18,
+      "collision": 10,
+      "timeout": 12,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/reference/clutter": {
+      "success": 32,
+      "collision": 0,
+      "timeout": 8,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/u64/clutter": {
+      "success": 35,
+      "collision": 0,
+      "timeout": 5,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/phase/clutter": {
+      "success": 31,
+      "collision": 0,
+      "timeout": 9,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/nonuniform/clutter": {
+      "success": 33,
+      "collision": 0,
+      "timeout": 7,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/u16/clutter": {
+      "success": 39,
+      "collision": 0,
+      "timeout": 1,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/reference/clutter": {
+      "success": 39,
+      "collision": 0,
+      "timeout": 1,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/u64/clutter": {
+      "success": 39,
+      "collision": 0,
+      "timeout": 1,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/phase/clutter": {
+      "success": 39,
+      "collision": 0,
+      "timeout": 1,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/nonuniform/clutter": {
+      "success": 39,
+      "collision": 0,
+      "timeout": 1,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    }
+  },
+  "posthoc": {
+    "raw/posthoc_step_0.025": {
+      "success": 15,
+      "collision": 9,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/posthoc_step_0.0125": {
+      "success": 15,
+      "collision": 9,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/posthoc_step_0.025": {
+      "success": 17,
+      "collision": 5,
+      "timeout": 2,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/posthoc_step_0.0125": {
+      "success": 17,
+      "collision": 5,
+      "timeout": 2,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/posthoc_step_0.025": {
+      "success": 17,
+      "collision": 5,
+      "timeout": 2,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/posthoc_step_0.0125": {
+      "success": 17,
+      "collision": 5,
+      "timeout": 2,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/posthoc_step_0.025": {
+      "success": 24,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/posthoc_step_0.0125": {
+      "success": 24,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "raw/baseline": {
+      "success": 15,
+      "collision": 8,
+      "timeout": 1,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "mean/baseline": {
+      "success": 17,
+      "collision": 5,
+      "timeout": 2,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "quadrature/baseline": {
+      "success": 17,
+      "collision": 5,
+      "timeout": 2,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    },
+    "nearest/baseline": {
+      "success": 24,
+      "collision": 0,
+      "timeout": 0,
+      "boundary": 0,
+      "stall": 0,
+      "nonfinite": 0
+    }
+  }
+}

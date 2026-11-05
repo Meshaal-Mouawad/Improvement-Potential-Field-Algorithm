@@ -1,0 +1,1137 @@
+{
+  "protocol": {
+    "replicates": 10000,
+    "seed": 20261106,
+    "rng": "LCG32: state=(1664525*state+1013904223) mod 2^32; u=state/2^32",
+    "strata": [
+      "single",
+      "gate",
+      "clutter"
+    ],
+    "drawsPerStratum": 40,
+    "order": "replicate, family, draw; numeric map suffix within family; same draws for every contrast",
+    "interval": "two-sided 95% percentile; nearest rank ceil(p*10000)-1 zero-based at p=.025,.975",
+    "unit": "success proportion; multiply differences and limits by 100 for percentage points",
+    "continuous": "mean paired difference over maps successful under both arms"
+  },
+  "referenceContrasts": {
+    "raw/u16": {
+      "difference": -0.325,
+      "ci": [
+        -0.4,
+        -0.25
+      ],
+      "pairedN": 73,
+      "meanLengthDifference": 0.005479452054794599,
+      "meanClearanceDifference": -0.035821927401881226,
+      "gains": 0,
+      "losses": 39,
+      "transitions": {
+        "success": {
+          "success": 73,
+          "collision": 32,
+          "timeout": 7,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 7,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "raw/u64": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": 0.05681818181818263,
+      "meanClearanceDifference": 0.0365948313579039,
+      "gains": 1,
+      "losses": 2,
+      "transitions": {
+        "success": {
+          "success": 110,
+          "collision": 0,
+          "timeout": 2,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 1,
+          "collision": 0,
+          "timeout": 7,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "raw/phase": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": -0.005000000000000071,
+      "meanClearanceDifference": -0.0004431858081590634,
+      "gains": 1,
+      "losses": 2,
+      "transitions": {
+        "success": {
+          "success": 110,
+          "collision": 0,
+          "timeout": 2,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 1,
+          "collision": 0,
+          "timeout": 7,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "raw/nonuniform": {
+      "difference": 0.008333333333333333,
+      "ci": [
+        -0.016666666666666666,
+        0.041666666666666664
+      ],
+      "pairedN": 111,
+      "meanLengthDifference": -0.09414414414414549,
+      "meanClearanceDifference": 0.017054668477122645,
+      "gains": 2,
+      "losses": 1,
+      "transitions": {
+        "success": {
+          "success": 111,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 2,
+          "collision": 0,
+          "timeout": 6,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "mean/u16": {
+      "difference": -0.18333333333333332,
+      "ci": [
+        -0.25,
+        -0.125
+      ],
+      "pairedN": 90,
+      "meanLengthDifference": 0.028333333333333734,
+      "meanClearanceDifference": -0.006806244290532585,
+      "gains": 0,
+      "losses": 22,
+      "transitions": {
+        "success": {
+          "success": 90,
+          "collision": 9,
+          "timeout": 13,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 4,
+          "timeout": 4,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "mean/u64": {
+      "difference": 0.025,
+      "ci": [
+        0,
+        0.058333333333333334
+      ],
+      "pairedN": 112,
+      "meanLengthDifference": -0.015178571428571644,
+      "meanClearanceDifference": 0.00007918452139123474,
+      "gains": 3,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 112,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 3,
+          "collision": 0,
+          "timeout": 5,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "mean/phase": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": -0.005000000000000071,
+      "meanClearanceDifference": -0.0004431858081590634,
+      "gains": 1,
+      "losses": 2,
+      "transitions": {
+        "success": {
+          "success": 110,
+          "collision": 0,
+          "timeout": 2,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 1,
+          "collision": 0,
+          "timeout": 7,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "mean/nonuniform": {
+      "difference": 0.008333333333333333,
+      "ci": [
+        -0.016666666666666666,
+        0.041666666666666664
+      ],
+      "pairedN": 111,
+      "meanLengthDifference": -0.09414414414414549,
+      "meanClearanceDifference": 0.017054668477122645,
+      "gains": 2,
+      "losses": 1,
+      "transitions": {
+        "success": {
+          "success": 111,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 2,
+          "collision": 0,
+          "timeout": 6,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "quadrature/u16": {
+      "difference": -0.18333333333333332,
+      "ci": [
+        -0.25,
+        -0.125
+      ],
+      "pairedN": 90,
+      "meanLengthDifference": 0.028333333333333734,
+      "meanClearanceDifference": -0.006806244290532585,
+      "gains": 0,
+      "losses": 22,
+      "transitions": {
+        "success": {
+          "success": 90,
+          "collision": 9,
+          "timeout": 13,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 4,
+          "timeout": 4,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "quadrature/u64": {
+      "difference": 0.025,
+      "ci": [
+        0,
+        0.058333333333333334
+      ],
+      "pairedN": 112,
+      "meanLengthDifference": -0.015178571428571644,
+      "meanClearanceDifference": 0.00007918452139131405,
+      "gains": 3,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 112,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 3,
+          "collision": 0,
+          "timeout": 5,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "quadrature/phase": {
+      "difference": -0.008333333333333333,
+      "ci": [
+        -0.03333333333333333,
+        0.016666666666666666
+      ],
+      "pairedN": 110,
+      "meanLengthDifference": -0.005000000000000071,
+      "meanClearanceDifference": -0.0004431858081590462,
+      "gains": 1,
+      "losses": 2,
+      "transitions": {
+        "success": {
+          "success": 110,
+          "collision": 0,
+          "timeout": 2,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 1,
+          "collision": 0,
+          "timeout": 7,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "quadrature/nonuniform": {
+      "difference": 0.008333333333333333,
+      "ci": [
+        0,
+        0.025
+      ],
+      "pairedN": 112,
+      "meanLengthDifference": -0.0066964285714286665,
+      "meanClearanceDifference": 0.00001252312965231309,
+      "gains": 1,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 112,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 1,
+          "collision": 0,
+          "timeout": 7,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "nearest/u16": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0,
+      "gains": 0,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 119,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "nearest/u64": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0,
+      "gains": 0,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 119,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "nearest/phase": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0,
+      "gains": 0,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 119,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "nearest/nonuniform": {
+      "difference": 0,
+      "ci": [
+        0,
+        0
+      ],
+      "pairedN": 119,
+      "meanLengthDifference": 0,
+      "meanClearanceDifference": 0,
+      "gains": 0,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 119,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    }
+  },
+  "recovery": {
+    "countnorm_vs_raw/u16": {
+      "difference": 0.14166666666666666,
+      "ci": [
+        0.08333333333333333,
+        0.2
+      ],
+      "pairedN": 73,
+      "meanLengthDifference": -0.0006849315068493248,
+      "meanClearanceDifference": 0.03320564929919579,
+      "gains": 17,
+      "losses": 0,
+      "transitions": {
+        "success": {
+          "success": 73,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 10,
+          "collision": 13,
+          "timeout": 16,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 7,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    },
+    "recalibratedraw_vs_frozenraw/u16": {
+      "difference": 0.19166666666666668,
+      "ci": [
+        0.125,
+        0.25833333333333336
+      ],
+      "pairedN": 72,
+      "meanLengthDifference": 0.02291666666666699,
+      "meanClearanceDifference": 0.05415806899223666,
+      "gains": 24,
+      "losses": 1,
+      "transitions": {
+        "success": {
+          "success": 72,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "collision": {
+          "success": 17,
+          "collision": 1,
+          "timeout": 21,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "timeout": {
+          "success": 7,
+          "collision": 0,
+          "timeout": 1,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "boundary": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "stall": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        },
+        "nonfinite": {
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "boundary": 0,
+          "stall": 0,
+          "nonfinite": 0
+        }
+      }
+    }
+  }
+}
